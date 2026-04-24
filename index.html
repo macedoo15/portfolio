@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <meta name="author" content="Daniel Macedo">
+    <meta 
+        name="description"
+        content="Portfólio do Daniel Macedo, 
+                desenvolvedor Full Stack especializado em criar experiências 
+                digitais incríveis. Conheça meus projetos e entre em contato."
+    >
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+
+    <title>Portfólio Daniel Macedo</title>
+</head>
+<body>
+
+    <!-- Cabeçalho da pagina (Header)-->
+    <header>
+        
+        <div class="menu-content">
+
+            <a href="index.html" id="titulo">Porfólio</a>
+
+            <!-- Menu -->
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="#hero">Inicio </a></li>
+                    <li><a href="#about"> Sobre </a></li>
+                    <li><a href="#projects">Projetos </a></li>
+                    <li><a href="#contact"> Contatos </a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+
+
+
+    </header>
+
+
+    <!-- Seção Principal da Página (main) -->
+<main>
+
+    <!-- Seção de Boas Vindas -->
+    <section id="hero">
+
+        <!-- BOAS VINDAS -->
+        <article class="hero-content">
+
+            <!-- Apresentação -->
+            <span>👋 Olá, eu sou Daniel Macedo</span>
+
+            <!-- Título principal -->
+            <h1>Desenvolvedor Full Stack</h1>
+
+            <!-- Descrição -->
+            <p>
+                Transformo ideias em código e crio experiências digitais incríveis.
+            </p>
+
+            <!-- Botões -->
+            <div class="buttons-container">
+                <a href="#contact" class="botao">Entre em Contato</a>
+                <a href="#about" class="botao-outline">Saiba Mais...</a>
+            </div>
+
+        </article>
+
+        <!-- IMAGEM -->
+        <figure class="hero-image">
+            <img 
+                src="./assets/img/foto_dev_man.svg"
+                alt="Foto do autor"
+                class="float-animation"
+                width="400"
+            >
+        </figure>
+
+    </section>
+
+    <!-- Seção Sobre o autor -->
+<section id="about" class="section-container about-container">
+
+    <!-- IMAGEM DO PERFIL -->
+    <figure class="about-image">
+        <img 
+            src="./assets/img/avatar_dev_man.svg" 
+            alt="Foto do perfil"
+            width="300"
+        >
+    </figure>
+
+    <!-- CONTEÚDO SOBRE -->
+    <article class="about-content">
+
+        <!-- Título -->
+        <h2>Sobre mim</h2>
+
+        <!-- Parágrafo 1 -->
+        <p>
+            Sou desenvolvedor Full Stack com foco em criação de aplicações web modernas, funcionais e bem estruturadas. 
+            Tenho experiência com desenvolvimento de sistemas e APIs, buscando sempre aplicar boas práticas e escrever código limpo e eficiente.
+        </p>
+
+        <!-- Parágrafo 2 -->
+        <p>
+           Atualmente, faço parte do bootcamp da Generation Brasil, onde estou aprimorando minhas habilidades em desenvolvimento Full Stack, 
+           trabalhando com tecnologias modernas e desenvolvendo projetos práticos focados no mercado de trabalho. 
+           Estou sempre em busca de evolução constante e novos desafios na área de tecnologia.
+        </p>
+
+        <!-- Botões + Dados -->
+        <div class="about-buttons-data">
+
+            <!-- BOTÕES -->
+            <div class="buttons-container">
+                <a href="#" target="_blank" class="botao">GitHub</a>
+                <a href="#" target="_blank" class="botao-outline">Currículo</a>
+            </div>
+
+            <!-- DADOS / NÚMEROS -->
+            <div class="data-container">
+
+                <!-- Item 1 -->
+                <div class="data-item">
+                    <span class="data-number">100</span>
+                    <span class="data-label">Seguidores</span>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="data-item">
+                    <span class="data-number">10</span>
+                    <span class="data-label">Repositórios</span>
+                </div>
+
+            </div>
+        </div>
+
+    </article>
+
+</section>
+
+    <!-- Seção Projetos do autor -->
+<section id="projects" class="section-container projects-container">
+
+    <!-- Título da seção -->
+    <h2>Meus Projetos</h2>
+
+    <!-- Container do Swiper (carrossel) -->
+    <div class="swiper projects-swiper">
+
+        <!-- Wrapper dos slides -->
+        <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+
+                <!-- Card do projeto -->
+                <article class="project-card">
+
+                    <!-- Imagem do projeto -->
+                    <figure class="project-image">
+                        <img 
+                            src="./assets/icons/languages/github.svg"
+                            alt="Ícone GitHub"
+                            width="300"
+                        >
+                    </figure>
+
+                    <!-- Conteúdo do projeto -->
+                    <div class="project-content">
+
+                        <!-- Nome do projeto -->
+                        <h3>Projeto GitHub</h3>
+
+                        <!-- Descrição -->
+                        <p>
+                            Projeto desenvolvido para praticar versionamento de código e colaboração utilizando o GitHub.
+                        </p>
+
+                        <!-- Tecnologias / Tags -->
+                        <div class="project-tags">
+                            <span class="tag">GitHub</span>
+                        </div>
+
+                        <!-- Botões -->
+                        <div class="project-buttons">
+
+                            <!-- Link GitHub -->
+                            <a href="#" target="_blank" class="botao botao-sm">
+                                GitHub
+                            </a>
+
+                            <!-- Link Deploy -->
+                            <a href="#" target="_blank" class="botao-outline botao-sm">
+                                Deploy
+                            </a>
+
+                        </div>
+
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <!-- Botões de navegação -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- Paginação -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+
+   <!-- Seção Formulário de Contato e Redes Sociais -->
+<section id="contact" class="section-container contact-container">
+
+    <!-- REDES SOCIAIS -->
+    <article class="contact-info">
+
+        <!-- Título -->
+        <h2>Entre em Contato</h2>
+
+        <!-- Descrição -->
+        <p>Sinta-se à vontade para entrar em contato comigo!</p>
+
+        <!-- Ícones sociais -->
+        <div class="social-container">
+
+            <!-- LinkedIn -->
+            <a href="#" target="_blank" class="social-icon" aria-label="LinkedIn">
+                <img src="./assets/icons/social/linkedin.svg" alt="Link para o LinkedIn">
+            </a>
+
+            <!-- GitHub -->
+            <a href="#" target="_blank" class="social-icon" aria-label="GitHub">
+                <img src="./assets/icons/social/github.svg" alt="Link para o GitHub">
+            </a>
+
+            <!-- Instagram -->
+            <a href="#" target="_blank" class="social-icon" aria-label="Instagram">
+                <img src="./assets/icons/social/instagram.svg" alt="Link para o Instagram">
+            </a>
+
+        </div>
+    </article>
+
+    <!-- FORMULÁRIO -->
+    <form id="formulario">
+
+        <!-- Nome -->
+        <label for="nome">Nome</label>
+        <input 
+            id="nome" 
+            name="nome" 
+            type="text" 
+            placeholder="Digite o seu nome completo"
+        >
+        <span id="erro-nome"></span>
+
+        <!-- Email -->
+        <label for="email">E-mail</label>
+        <input 
+            id="email" 
+            name="email" 
+            type="text" 
+            placeholder="Digite o seu e-mail"
+        >
+        <span id="erro-email"></span>
+
+        <!-- Assunto -->
+        <label for="assunto">Assunto</label>
+        <input 
+            id="assunto" 
+            name="assunto" 
+            type="text" 
+            placeholder="Digite o assunto da mensagem"
+        >
+        <span id="erro-assunto"></span><br>
+
+        <!-- Mensagem -->
+        <label for="mensagem">Mensagem</label>
+        <textarea 
+            id="mensagem" 
+            name="mensagem" 
+            placeholder="Escreva a sua mensagem aqui..."
+        ></textarea>
+        <span id="erro-mensagem"></span>
+
+        <!-- Botão -->
+        <button class="botao" type="submit">Enviar Mensagem</button>
+
+    </form>
+
+</section>
+
+</main>
+    
+
+    <!-- Rodapé da pagina (footer)-->
+    <footer>
+        Desenvolvido por Daniel Macedo - 2026
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
