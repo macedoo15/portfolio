@@ -73,7 +73,8 @@ async function getAboutGithub() {
                         </a>
 
                         <a
-                            href="#"
+                            href="./assets/files/curriculo.pdf"
+                            download="curriculo-daniel-macedo.pdf"
                             class="botao-outline"
                         >
                             Currículo
