@@ -458,6 +458,16 @@ formulario.addEventListener(
 
         if (isValid) {
 
+            const nextPage =
+                formulario.querySelector('input[name="_next"]');
+
+            if (nextPage) {
+
+                nextPage.value =
+                    `${window.location.origin}${window.location.pathname.replace(/index\.html$/, '')}sucess.html`;
+
+            }
+
             const submitButton =
                 formulario.querySelector(
                     'button[type="submit"]'
